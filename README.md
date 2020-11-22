@@ -19,6 +19,11 @@ Dataset contains more than 25000 training and 12500 test image dataset. Which co
 * All above mentioned hyperparameter is taken after training with many different tuning of hyperparameters. 
 * **Final accuracy for training data: 90.13 and Validation Data: 90.73**
 
+## Data visualization
+* **Number of examples of each class**
+![Class Distribution](.Class distribution.png)
+
+
 ## Built with
 * Python
 * Matplotlib
