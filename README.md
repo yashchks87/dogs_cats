@@ -21,7 +21,7 @@ Dataset contains more than 25000 training and 12500 test image dataset. Which co
 
 ## Data visualization
 * **Number of examples of each class**
-![Class Distribution](.Class distribution.png)
+![Class Distribution](./Class distribution.png)
 
 
 ## Built with
