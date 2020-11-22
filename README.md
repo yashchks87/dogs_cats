@@ -5,6 +5,10 @@ Convolutional neural networks using DNN to classify images between dogs and cats
 Hello world of computer vision dataset of Dogs and Cats image is used to perform. Dataset was taken from Kaggle. Supervised computer vision problem; used DNN models to train model. 
 
 ### Dataset Description
+Dataset contains more than 25000 training and 12500 test image dataset. Which contains primarily Dogs and Cats as images. Target variable is defined as 1 = Dog and 0 = Cat.
+
+## Project flow
+# Data processing was handeled by some list of python libraries such as Glob for gettting all image files. Heavy emphasis on Tensorflow dataset API for preparing dataset for Neural netowrk. Data collected and then created user defined functions.
 
 ## Built with
 * Python
