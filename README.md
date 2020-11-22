@@ -1,4 +1,4 @@
-# dogs_cats
+# Dog and cats image classification
 Convolutional neural networks using DNN to classify images between dogs and cats
 
 ## Built with
