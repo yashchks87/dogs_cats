@@ -1,6 +1,8 @@
 # Dog and cats image classification
 Convolutional neural networks using DNN to classify images between dogs and cats
 
+## Project brief
+
 ## Built with
 * Python
 * Matplotlib
