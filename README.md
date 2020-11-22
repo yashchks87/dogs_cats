@@ -21,6 +21,10 @@ Dataset contains more than 25000 training and 12500 test image dataset. Which co
 
 ## Data visualization
 * **Class Distribution**
+![Class Distribution](./Class_distribution.png)
+* **Sample pictures**
+* ![Solar panel in residential and non-residential](./Class_distribution.png)
+* **Class Distribution**
 * ![Solar panel in residential and non-residential](./Class_distribution.png)
 
 
