@@ -42,5 +42,4 @@ Dataset contains more than 25000 training and 12500 test image dataset. Which co
 * [Yash Choksi](https://www.linkedin.com/in/choksiyash/)
 
 ## Acknowledgements
-* [Data set URL](https://www.kaggle.com/c/quora-insincere-questions-classification)
-* [Book referred](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291)
+* [Data set URL](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data)
