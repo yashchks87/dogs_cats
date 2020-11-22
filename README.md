@@ -20,7 +20,7 @@ Dataset contains more than 25000 training and 12500 test image dataset. Which co
 * **Final accuracy for training data: 90.13 and Validation Data: 90.73**
 
 ## Data visualization
-* **Top 50 words from whole dataset train and test**
+* **Class Distribution**
 ![Solar panel in residential and non-residential](./Class_distribution.png)
 
 
