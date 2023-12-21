@@ -1,0 +1,499 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:37<00:00,  2.13batch/s, fn=10, fp=0, loss=38.5, precision=0, recall=0, tn=16, tp=0]
+
+100%|██████████| 9/9 [00:02<00:00,  4.43batch/s, fn=98, fp=0, loss=48.5, precision=0, recall=0, tn=104, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.19batch/s, fn=11, fp=0, loss=42.3, precision=0, recall=0, tn=15, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.39batch/s, fn=96, fp=0, loss=47.5, precision=0, recall=0, tn=106, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.18batch/s, fn=11, fp=0, loss=42.3, precision=0, recall=0, tn=15, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.47batch/s, fn=94, fp=0, loss=46.5, precision=0, recall=0, tn=108, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.18batch/s, fn=12, fp=0, loss=46.2, precision=0, recall=0, tn=14, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.30batch/s, fn=98, fp=0, loss=48.5, precision=0, recall=0, tn=104, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=12, fp=0, loss=46.2, precision=0, recall=0, tn=14, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.37batch/s, fn=100, fp=0, loss=49.5, precision=0, recall=0, tn=102, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.18batch/s, fn=17, fp=0, loss=65.4, precision=0, recall=0, tn=9, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.41batch/s, fn=91, fp=0, loss=45, precision=0, recall=0, tn=111, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:37<00:00,  2.16batch/s, fn=16, fp=0, loss=61.5, precision=0, recall=0, tn=10, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.43batch/s, fn=94, fp=0, loss=46.5, precision=0, recall=0, tn=108, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:37<00:00,  2.16batch/s, fn=12, fp=0, loss=46.2, precision=0, recall=0, tn=14, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  3.88batch/s, fn=101, fp=0, loss=50, precision=0, recall=0, tn=101, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:37<00:00,  2.16batch/s, fn=12, fp=0, loss=46.2, precision=0, recall=0, tn=14, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.33batch/s, fn=105, fp=0, loss=52, precision=0, recall=0, tn=97, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=11, fp=0, loss=42.3, precision=0, recall=0, tn=15, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.38batch/s, fn=106, fp=0, loss=52.5, precision=0, recall=0, tn=96, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=10, fp=0, loss=38.5, precision=0, recall=0, tn=16, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  3.95batch/s, fn=96, fp=0, loss=47.5, precision=0, recall=0, tn=106, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=14, fp=0, loss=53.8, precision=0, recall=0, tn=12, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.34batch/s, fn=96, fp=0, loss=47.5, precision=0, recall=0, tn=106, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:37<00:00,  2.15batch/s, fn=9, fp=0, loss=34.6, precision=0, recall=0, tn=17, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.40batch/s, fn=95, fp=0, loss=47, precision=0, recall=0, tn=107, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=14, fp=0, loss=53.8, precision=0, recall=0, tn=12, tp=0]
+
+100%|██████████| 9/9 [00:02<00:00,  4.37batch/s, fn=115, fp=0, loss=56.9, precision=0, recall=0, tn=87, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=15, fp=0, loss=57.7, precision=0, recall=0, tn=11, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.47batch/s, fn=97, fp=0, loss=48, precision=0, recall=0, tn=105, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:37<00:00,  2.15batch/s, fn=14, fp=0, loss=53.8, precision=0, recall=0, tn=12, tp=0]
+
+100%|██████████| 9/9 [00:02<00:00,  3.98batch/s, fn=92, fp=0, loss=45.5, precision=0, recall=0, tn=110, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=14, fp=0, loss=53.8, precision=0, recall=0, tn=12, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.39batch/s, fn=99, fp=0, loss=49, precision=0, recall=0, tn=103, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:37<00:00,  2.15batch/s, fn=11, fp=0, loss=42.3, precision=0, recall=0, tn=15, tp=0]
+
+100%|██████████| 9/9 [00:02<00:00,  4.11batch/s, fn=93, fp=0, loss=46, precision=0, recall=0, tn=109, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=12, fp=0, loss=46.2, precision=0, recall=0, tn=14, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  3.94batch/s, fn=111, fp=0, loss=55, precision=0, recall=0, tn=91, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.16batch/s, fn=10, fp=0, loss=38.5, precision=0, recall=0, tn=16, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.39batch/s, fn=102, fp=0, loss=50.5, precision=0, recall=0, tn=100, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.16batch/s, fn=14, fp=0, loss=53.8, precision=0, recall=0, tn=12, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.38batch/s, fn=86, fp=0, loss=42.6, precision=0, recall=0, tn=116, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=15, fp=0, loss=57.7, precision=0, recall=0, tn=11, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.32batch/s, fn=102, fp=0, loss=50.5, precision=0, recall=0, tn=100, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.16batch/s, fn=12, fp=0, loss=46.2, precision=0, recall=0, tn=14, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.36batch/s, fn=108, fp=0, loss=53.5, precision=0, recall=0, tn=94, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=14, fp=0, loss=53.8, precision=0, recall=0, tn=12, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.19batch/s, fn=106, fp=0, loss=52.5, precision=0, recall=0, tn=96, tp=0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 80/80 [00:36<00:00,  2.17batch/s, fn=16, fp=0, loss=61.5, precision=0, recall=0, tn=10, tp=0]
+100%|██████████| 9/9 [00:02<00:00,  4.13batch/s, fn=106, fp=0, loss=52.5, precision=0, recall=0, tn=96, tp=0]
+
+
+
+
+
+
+
+
+
+

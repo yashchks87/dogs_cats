@@ -1201,3 +1201,70 @@
 2023-12-21 16:48:57,051 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
 2023-12-21 16:48:58,317 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
 2023-12-21 16:49:00,318 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:02,319 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:04,319 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:06,320 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:08,321 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:09,774 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 16:49:09,775 DEBUG   SenderThread:5641 [sender.py:send():303] send: history
+2023-12-21 16:49:09,775 DEBUG   SenderThread:5641 [sender.py:send():303] send: summary
+2023-12-21 16:49:09,776 INFO    SenderThread:5641 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 16:49:10,322 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:10,322 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/wandb-summary.json
+2023-12-21 16:49:12,322 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:49:12,322 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:49:12,325 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:12,630 DEBUG   SenderThread:5641 [sender.py:send():303] send: stats
+2023-12-21 16:49:14,326 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:16,326 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:18,327 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:20,328 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:22,329 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:24,330 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:26,330 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:27,582 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:49:27,583 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:49:28,331 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:30,332 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:32,333 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:34,334 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:36,335 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:38,336 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:38,464 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 16:49:38,465 DEBUG   SenderThread:5641 [sender.py:send():303] send: history
+2023-12-21 16:49:38,465 DEBUG   SenderThread:5641 [sender.py:send():303] send: summary
+2023-12-21 16:49:38,465 INFO    SenderThread:5641 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 16:49:38,472 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: pause
+2023-12-21 16:49:38,472 INFO    HandlerThread:5641 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-12-21 16:49:38,516 DEBUG   SenderThread:5641 [sender.py:send():303] send: stats
+2023-12-21 16:49:39,336 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/wandb-summary.json
+2023-12-21 16:49:40,337 INFO    Thread-13 :5641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_162533-1vqrecsq/files/output.log
+2023-12-21 16:49:42,750 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:49:42,750 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:49:57,875 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:49:57,875 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:50:13,127 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:50:13,128 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:50:28,244 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:50:28,244 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:50:43,453 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:50:43,454 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:50:58,650 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:50:58,651 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:51:13,937 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:51:13,937 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:51:29,134 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:51:29,134 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:51:44,340 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:51:44,340 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:51:59,483 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:51:59,483 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:52:14,612 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:52:14,613 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:52:29,775 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 16:52:29,776 DEBUG   SenderThread:5641 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 16:52:32,344 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: resume
+2023-12-21 16:52:32,344 INFO    HandlerThread:5641 [handler.py:handle_request_resume():687] starting system metrics thread
+2023-12-21 16:52:32,510 DEBUG   HandlerThread:5641 [handler.py:handle_request():138] handle_request: pause
+2023-12-21 16:52:32,510 INFO    HandlerThread:5641 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-12-21 16:52:32,566 DEBUG   SenderThread:5641 [sender.py:send():303] send: stats

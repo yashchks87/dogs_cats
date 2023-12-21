@@ -1,0 +1,33 @@
+2023-12-21 18:04:34,395 INFO    StreamThr :24254 [internal.py:wandb_internal():88] W&B internal server running at pid: 24254, started at: 2023-12-21 18:04:34.394439
+2023-12-21 18:04:34,397 DEBUG   HandlerThread:24254 [handler.py:handle_request():138] handle_request: status
+2023-12-21 18:04:34,397 DEBUG   SenderThread:24254 [sender.py:send_request():317] send_request: status
+2023-12-21 18:04:34,399 DEBUG   SenderThread:24254 [sender.py:send():303] send: header
+2023-12-21 18:04:34,399 INFO    WriterThread:24254 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_180428-d8mhtipj/run-d8mhtipj.wandb
+2023-12-21 18:04:34,399 DEBUG   SenderThread:24254 [sender.py:send():303] send: run
+2023-12-21 18:04:34,765 INFO    SenderThread:24254 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_180428-d8mhtipj/files
+2023-12-21 18:04:34,765 INFO    SenderThread:24254 [sender.py:_start_run_threads():928] run started: d8mhtipj with start time 1703181873.402996
+2023-12-21 18:04:34,766 DEBUG   SenderThread:24254 [sender.py:send():303] send: summary
+2023-12-21 18:04:34,766 INFO    SenderThread:24254 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:04:34,767 DEBUG   HandlerThread:24254 [handler.py:handle_request():138] handle_request: check_version
+2023-12-21 18:04:34,767 DEBUG   SenderThread:24254 [sender.py:send_request():317] send_request: check_version
+2023-12-21 18:04:34,832 DEBUG   HandlerThread:24254 [handler.py:handle_request():138] handle_request: run_start
+2023-12-21 18:04:34,833 DEBUG   HandlerThread:24254 [meta.py:__init__():34] meta init
+2023-12-21 18:04:34,833 DEBUG   HandlerThread:24254 [meta.py:__init__():49] meta init done
+2023-12-21 18:04:34,834 DEBUG   HandlerThread:24254 [meta.py:probe():215] probe
+2023-12-21 18:04:34,835 DEBUG   HandlerThread:24254 [meta.py:_setup_git():205] setup git
+2023-12-21 18:04:34,849 DEBUG   HandlerThread:24254 [meta.py:_setup_git():212] setup git done
+2023-12-21 18:04:34,849 DEBUG   HandlerThread:24254 [meta.py:_save_pip():53] save pip
+2023-12-21 18:04:34,850 DEBUG   HandlerThread:24254 [meta.py:_save_pip():67] save pip done
+2023-12-21 18:04:34,850 DEBUG   HandlerThread:24254 [meta.py:probe():253] probe done
+2023-12-21 18:04:34,852 DEBUG   SenderThread:24254 [sender.py:send():303] send: files
+2023-12-21 18:04:34,853 INFO    SenderThread:24254 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-12-21 18:04:34,863 DEBUG   HandlerThread:24254 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:04:34,864 DEBUG   SenderThread:24254 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:04:35,080 DEBUG   SenderThread:24254 [sender.py:send():303] send: telemetry
+2023-12-21 18:04:35,342 INFO    Thread-40 :24254 [upload_job.py:push():143] Uploaded file /tmp/tmp25c7xz7rwandb/1bx9plgb-wandb-metadata.json
+2023-12-21 18:04:35,768 INFO    Thread-36 :24254 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_180428-d8mhtipj/files/wandb-metadata.json
+2023-12-21 18:04:35,769 INFO    Thread-36 :24254 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_180428-d8mhtipj/files/requirements.txt
+2023-12-21 18:04:35,769 INFO    Thread-36 :24254 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_180428-d8mhtipj/files/output.log
+2023-12-21 18:04:35,769 INFO    Thread-36 :24254 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_180428-d8mhtipj/files/wandb-summary.json
+2023-12-21 18:04:37,767 INFO    Thread-36 :24254 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_180428-d8mhtipj/files/output.log
+2023-12-21 18:04:39,768 INFO    Thread-36 :24254 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_180428-d8mhtipj/files/output.log

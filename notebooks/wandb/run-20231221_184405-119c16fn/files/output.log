@@ -1,0 +1,99 @@
+
+
+
+100%|██████████| 40/40 [00:07<00:00,  5.47batch/s, fn=42, fp=89, loss=0.694, precision=0.524, recall=0.7, tn=53, tp=98]
+100%|██████████| 5/5 [00:01<00:00,  4.48batch/s, fn=0, fp=104, loss=0.694, precision=0.485, recall=1, tn=0, tp=98]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.47batch/s, fn=55, fp=69, loss=0.69, precision=0.574, recall=0.628, tn=65, tp=93]
+100%|██████████| 5/5 [00:01<00:00,  4.76batch/s, fn=15, fp=75, loss=0.693, precision=0.543, recall=0.856, tn=23, tp=89]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.25batch/s, fn=55, fp=78, loss=0.687, precision=0.5, recall=0.586, tn=71, tp=78]
+100%|██████████| 5/5 [00:01<00:00,  4.42batch/s, fn=71, fp=38, loss=0.693, precision=0.525, recall=0.372, tn=51, tp=42]
+
+
+100%|██████████| 40/40 [00:05<00:00,  6.86batch/s, fn=73, fp=63, loss=0.7, precision=0.54, recall=0.503, tn=72, tp=74]
+100%|██████████| 5/5 [00:01<00:00,  4.42batch/s, fn=83, fp=39, loss=0.694, precision=0.328, recall=0.186, tn=61, tp=19]
+
+
+100%|██████████| 40/40 [00:05<00:00,  6.72batch/s, fn=52, fp=84, loss=0.699, precision=0.503, recall=0.62, tn=61, tp=85]
+100%|██████████| 5/5 [00:01<00:00,  4.05batch/s, fn=73, fp=34, loss=0.693, precision=0.404, recall=0.24, tn=72, tp=23]
+
+
+100%|██████████| 40/40 [00:05<00:00,  6.75batch/s, fn=69, fp=69, loss=0.696, precision=0.504, recall=0.504, tn=74, tp=70]
+100%|██████████| 5/5 [00:01<00:00,  4.47batch/s, fn=99, fp=15, loss=0.695, precision=0.375, recall=0.0833, tn=79, tp=9]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.44batch/s, fn=85, fp=62, loss=0.693, precision=0.523, recall=0.444, tn=67, tp=68]
+100%|██████████| 5/5 [00:01<00:00,  4.37batch/s, fn=90, fp=11, loss=0.693, precision=0.5, recall=0.109, tn=90, tp=11]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.53batch/s, fn=62, fp=68, loss=0.698, precision=0.521, recall=0.544, tn=78, tp=74]
+100%|██████████| 5/5 [00:01<00:00,  4.25batch/s, fn=92, fp=10, loss=0.693, precision=0.524, recall=0.107, tn=89, tp=11]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.57batch/s, fn=78, fp=83, loss=0.713, precision=0.447, recall=0.462, tn=54, tp=67]
+100%|██████████| 5/5 [00:01<00:00,  3.56batch/s, fn=90, fp=13, loss=0.694, precision=0.458, recall=0.109, tn=88, tp=11]
+
+
+100%|██████████| 40/40 [00:06<00:00,  5.95batch/s, fn=70, fp=69, loss=0.697, precision=0.489, recall=0.485, tn=77, tp=66]
+100%|██████████| 5/5 [00:01<00:00,  4.50batch/s, fn=92, fp=19, loss=0.693, precision=0.24, recall=0.0612, tn=85, tp=6]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.45batch/s, fn=73, fp=73, loss=0.699, precision=0.463, recall=0.463, tn=73, tp=63]
+100%|██████████| 5/5 [00:01<00:00,  4.72batch/s, fn=88, fp=18, loss=0.693, precision=0.438, recall=0.137, tn=82, tp=14]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.42batch/s, fn=64, fp=61, loss=0.691, precision=0.541, recall=0.529, tn=85, tp=72]
+100%|██████████| 5/5 [00:01<00:00,  4.01batch/s, fn=89, fp=21, loss=0.694, precision=0.488, recall=0.183, tn=72, tp=20]
+
+
+
+100%|██████████| 40/40 [00:06<00:00,  5.83batch/s, fn=85, fp=56, loss=0.694, precision=0.556, recall=0.452, tn=71, tp=70]
+100%|██████████| 5/5 [00:01<00:00,  3.62batch/s, fn=87, fp=23, loss=0.694, precision=0.452, recall=0.179, tn=73, tp=19]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.60batch/s, fn=88, fp=52, loss=0.699, precision=0.581, recall=0.45, tn=70, tp=72]
+100%|██████████| 5/5 [00:01<00:00,  4.66batch/s, fn=67, fp=34, loss=0.693, precision=0.558, recall=0.391, tn=58, tp=43]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.61batch/s, fn=74, fp=70, loss=0.701, precision=0.504, recall=0.49, tn=67, tp=71]
+100%|██████████| 5/5 [00:01<00:00,  4.61batch/s, fn=70, fp=34, loss=0.694, precision=0.5, recall=0.327, tn=64, tp=34]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.32batch/s, fn=74, fp=70, loss=0.698, precision=0.489, recall=0.475, tn=71, tp=67]
+100%|██████████| 5/5 [00:01<00:00,  4.15batch/s, fn=55, fp=48, loss=0.693, precision=0.473, recall=0.439, tn=56, tp=43]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.44batch/s, fn=53, fp=80, loss=0.69, precision=0.487, recall=0.589, tn=73, tp=76]
+100%|██████████| 5/5 [00:01<00:00,  3.65batch/s, fn=60, fp=54, loss=0.693, precision=0.419, recall=0.394, tn=49, tp=39]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.49batch/s, fn=57, fp=80, loss=0.692, precision=0.49, recall=0.575, tn=68, tp=77]
+100%|██████████| 5/5 [00:01<00:00,  4.41batch/s, fn=64, fp=46, loss=0.694, precision=0.477, recall=0.396, tn=50, tp=42]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.64batch/s, fn=63, fp=85, loss=0.701, precision=0.455, recall=0.53, tn=63, tp=71]
+100%|██████████| 5/5 [00:01<00:00,  4.46batch/s, fn=41, fp=66, loss=0.693, precision=0.436, recall=0.554, tn=44, tp=51]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.57batch/s, fn=73, fp=68, loss=0.696, precision=0.521, recall=0.503, tn=67, tp=74]
+100%|██████████| 5/5 [00:01<00:00,  4.63batch/s, fn=55, fp=54, loss=0.694, precision=0.534, recall=0.53, tn=31, tp=62]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.18batch/s, fn=86, fp=62, loss=0.701, precision=0.541, recall=0.459, tn=61, tp=73]
+100%|██████████| 5/5 [00:01<00:00,  4.41batch/s, fn=44, fp=51, loss=0.693, precision=0.568, recall=0.604, tn=40, tp=67]
+
+
+100%|██████████| 40/40 [00:05<00:00,  6.74batch/s, fn=81, fp=59, loss=0.691, precision=0.528, recall=0.449, tn=76, tp=66]
+100%|██████████| 5/5 [00:01<00:00,  3.78batch/s, fn=40, fp=72, loss=0.694, precision=0.419, recall=0.565, tn=38, tp=52]
+
+
+100%|██████████| 40/40 [00:06<00:00,  6.46batch/s, fn=82, fp=65, loss=0.698, precision=0.529, recall=0.471, tn=62, tp=73]
+100%|██████████| 5/5 [00:01<00:00,  4.11batch/s, fn=26, fp=74, loss=0.694, precision=0.507, recall=0.745, tn=26, tp=76]
+
+
+ 45%|████▌     | 18/40 [00:03<00:03,  5.68batch/s, fn=131, fp=108, loss=0.69, precision=0.566, recall=0.518, tn=132, tp=141]
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

@@ -1,0 +1,557 @@
+2023-12-21 18:23:32,036 INFO    StreamThr :28601 [internal.py:wandb_internal():88] W&B internal server running at pid: 28601, started at: 2023-12-21 18:23:32.033894
+2023-12-21 18:23:32,041 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: status
+2023-12-21 18:23:32,041 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: status
+2023-12-21 18:23:32,050 DEBUG   SenderThread:28601 [sender.py:send():303] send: header
+2023-12-21 18:23:32,050 INFO    WriterThread:28601 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/run-34jkep2y.wandb
+2023-12-21 18:23:32,085 DEBUG   SenderThread:28601 [sender.py:send():303] send: run
+2023-12-21 18:23:32,410 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: check_version
+2023-12-21 18:23:32,412 INFO    SenderThread:28601 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files
+2023-12-21 18:23:32,412 INFO    SenderThread:28601 [sender.py:_start_run_threads():928] run started: 34jkep2y with start time 1703183012.0297
+2023-12-21 18:23:32,412 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:23:32,413 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:23:32,413 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: check_version
+2023-12-21 18:23:32,485 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: run_start
+2023-12-21 18:23:32,494 DEBUG   HandlerThread:28601 [meta.py:__init__():34] meta init
+2023-12-21 18:23:32,495 DEBUG   HandlerThread:28601 [meta.py:__init__():49] meta init done
+2023-12-21 18:23:32,495 DEBUG   HandlerThread:28601 [meta.py:probe():215] probe
+2023-12-21 18:23:32,508 DEBUG   HandlerThread:28601 [meta.py:_setup_git():205] setup git
+2023-12-21 18:23:32,523 DEBUG   HandlerThread:28601 [meta.py:_setup_git():212] setup git done
+2023-12-21 18:23:32,523 DEBUG   HandlerThread:28601 [meta.py:_save_pip():53] save pip
+2023-12-21 18:23:32,524 DEBUG   HandlerThread:28601 [meta.py:_save_pip():67] save pip done
+2023-12-21 18:23:32,524 DEBUG   HandlerThread:28601 [meta.py:probe():253] probe done
+2023-12-21 18:23:32,821 DEBUG   SenderThread:28601 [sender.py:send():303] send: files
+2023-12-21 18:23:32,821 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-12-21 18:23:32,834 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:23:32,834 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:23:33,056 DEBUG   SenderThread:28601 [sender.py:send():303] send: telemetry
+2023-12-21 18:23:33,329 INFO    Thread-17 :28601 [upload_job.py:push():143] Uploaded file /tmp/tmph6e5k0a6wandb/2ctsn27c-wandb-metadata.json
+2023-12-21 18:23:33,414 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:23:33,414 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/requirements.txt
+2023-12-21 18:23:33,414 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-metadata.json
+2023-12-21 18:23:34,413 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:36,414 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:38,415 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:40,416 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:42,021 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:23:42,023 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:23:42,023 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:23:42,025 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:23:42,417 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:42,417 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:23:44,418 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:46,418 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:48,083 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:23:48,083 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:23:48,419 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:49,166 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:23:49,166 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:23:49,167 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:23:49,168 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:23:49,420 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:23:50,420 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:52,421 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:54,422 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:56,422 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:23:56,856 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:23:56,858 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:23:56,858 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:23:56,859 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:23:57,423 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:23:58,423 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:00,424 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:00,776 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:24:02,425 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:02,425 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/config.yaml
+2023-12-21 18:24:03,296 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:24:03,296 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:24:03,828 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:24:03,829 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:24:03,829 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:24:03,830 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:24:04,426 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:04,426 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:24:06,426 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:08,427 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:10,428 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:11,192 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:24:11,193 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:24:11,193 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:24:11,194 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:24:11,428 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:24:12,429 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:14,430 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:16,431 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:18,432 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:18,531 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:24:18,531 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:24:18,682 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:24:18,683 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:24:18,684 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:24:18,684 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:24:19,432 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:24:20,433 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:22,433 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:24,434 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:26,435 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:26,706 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:24:26,706 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:24:26,707 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:24:26,708 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:24:27,435 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:24:28,436 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:30,437 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:31,078 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:24:32,437 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:33,626 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:24:33,627 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:24:33,627 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:24:33,627 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:24:33,667 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:24:33,667 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:24:34,438 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:34,438 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:24:36,439 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:38,440 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:40,441 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:41,126 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:24:41,127 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:24:41,128 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:24:41,129 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:24:41,441 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:24:42,442 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:44,442 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:47,443 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:48,839 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:24:48,840 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:24:48,841 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:24:48,842 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:24:48,932 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:24:48,933 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:24:49,444 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:49,445 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:24:51,446 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:53,446 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:55,447 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:56,160 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:24:56,161 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:24:56,161 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:24:56,163 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:24:56,448 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:24:57,448 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:24:59,450 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:01,348 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:25:01,451 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:03,452 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:04,074 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:25:04,075 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:25:04,138 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:25:04,251 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:25:04,251 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:25:04,253 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:25:04,452 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:25:05,453 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:07,454 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:09,454 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:11,455 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:11,698 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:25:11,699 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:25:11,700 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:25:11,701 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:25:12,456 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:25:13,456 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:15,457 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:17,458 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:18,818 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:25:18,819 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:25:18,819 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:25:18,821 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:25:19,265 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:25:19,266 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:25:19,459 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:19,459 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:25:21,459 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:23,460 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:25,461 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:26,021 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:25:26,022 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:25:26,022 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:25:26,023 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:25:26,462 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:25:27,462 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:29,463 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:31,464 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:31,638 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:25:33,324 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:25:33,326 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:25:33,326 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:25:33,328 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:25:33,465 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:33,465 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:25:34,448 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:25:34,448 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:25:35,465 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:37,466 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:39,467 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:40,736 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:25:40,737 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:25:40,737 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:25:40,738 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:25:41,468 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:41,468 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:25:43,469 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:45,470 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:47,470 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:48,080 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:25:48,081 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:25:48,081 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:25:48,082 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:25:48,471 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:25:49,471 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:49,662 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:25:49,663 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:25:51,472 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:53,473 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:55,400 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:25:55,401 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:25:55,401 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:25:55,402 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:25:55,474 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:55,474 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:25:57,475 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:25:59,476 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:01,477 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:01,874 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:26:02,617 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:26:02,618 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:26:02,618 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:26:02,619 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:26:03,478 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:03,478 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:26:04,851 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:26:04,852 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:26:05,478 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:07,479 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:09,480 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:10,154 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:26:10,155 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:26:10,155 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:26:10,156 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:26:10,481 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:26:11,481 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:13,482 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:15,483 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:17,219 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:26:17,221 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:26:17,221 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:26:17,222 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:26:17,483 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:17,484 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:26:19,484 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:20,106 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:26:20,107 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:26:21,485 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:23,486 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:24,459 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:26:24,460 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:26:24,461 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:26:24,462 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:26:24,486 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:26:25,486 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:27,487 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:29,488 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:31,489 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:31,629 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:26:31,630 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:26:31,631 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:26:31,631 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:26:32,150 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:26:32,489 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:26:33,490 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:35,349 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:26:35,350 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:26:35,490 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:37,491 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:39,385 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:26:39,386 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:26:39,386 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:26:39,387 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:26:39,492 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:39,492 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:26:41,493 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:43,494 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:45,494 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:46,395 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:26:46,396 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:26:46,396 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:26:46,397 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:26:46,495 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:26:47,495 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:49,496 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:50,570 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:26:50,570 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:26:51,497 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:53,498 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:53,816 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:26:53,817 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:26:53,817 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:26:53,818 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:26:54,498 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:26:55,498 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:57,499 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:26:59,500 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:00,951 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:00,952 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:00,953 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:00,954 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:27:01,501 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:01,501 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:27:02,430 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:27:03,502 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:05,502 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:05,693 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:27:05,693 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:27:07,503 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:08,017 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:08,018 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:08,018 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:08,019 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:27:08,504 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:27:09,504 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:11,505 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:13,506 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:15,463 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:15,464 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:15,464 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:15,465 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:27:15,507 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:15,507 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:27:17,508 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:19,508 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:20,893 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:27:20,893 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:27:21,509 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:22,739 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:22,740 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:22,740 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:22,741 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:27:23,510 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:23,510 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:27:25,511 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:27,512 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:29,513 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:29,819 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:29,820 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:29,820 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:29,821 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:27:30,513 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:27:31,514 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:32,738 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:27:33,514 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:35,515 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:36,069 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:27:36,070 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:27:37,115 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:37,116 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:37,116 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:37,117 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:27:37,516 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:37,517 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:27:39,517 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:41,518 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:43,519 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:44,957 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:44,958 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:44,958 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:44,959 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:27:45,520 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:45,520 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:27:47,520 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:49,522 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:51,243 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:27:51,243 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:27:51,522 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:52,258 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:52,260 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:52,260 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:52,261 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:27:52,523 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:27:53,523 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:55,524 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:57,525 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:59,526 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:27:59,622 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:27:59,623 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:27:59,623 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:27:59,624 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:00,526 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:01,527 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:03,063 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:28:03,528 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:05,529 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:06,450 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:28:06,451 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:28:06,995 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:28:06,996 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:28:06,996 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:28:06,997 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:07,529 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:07,530 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:09,530 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:11,531 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:13,532 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:14,907 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:28:14,907 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:28:14,908 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:28:14,908 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:15,533 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:15,533 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:17,533 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:19,534 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:21,535 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:21,653 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:28:21,653 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:28:22,174 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:28:22,175 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:28:22,175 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:28:22,176 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:22,536 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:23,536 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:25,537 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:27,538 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:29,498 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:28:29,499 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:28:29,499 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:28:29,500 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:29,539 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:29,539 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:31,540 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:33,341 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:28:33,541 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:35,541 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:36,581 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:28:36,582 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:28:36,582 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:28:36,582 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:36,895 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:28:36,895 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:28:37,542 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:37,543 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:39,543 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:41,544 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:43,545 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:43,730 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:28:43,731 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:28:43,732 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:28:43,732 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:44,545 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:45,546 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:47,546 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:49,547 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:51,153 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:28:51,154 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:28:51,154 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:28:51,155 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:51,548 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:51,549 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:52,244 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:28:52,244 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:28:53,549 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:55,550 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:57,551 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:28:57,903 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:28:57,904 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:28:57,905 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:28:57,905 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:28:58,551 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:28:59,552 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:01,552 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:03,553 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:03,643 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:29:05,449 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:29:05,450 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:29:05,451 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:29:05,451 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:29:05,554 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:05,554 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:29:07,462 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:29:07,463 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:29:07,555 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:09,556 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:11,556 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:12,818 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:29:12,819 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:29:12,820 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:29:12,820 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:29:13,558 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:13,558 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:29:15,558 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:17,559 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:19,560 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:20,221 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:29:20,223 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:29:20,223 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:29:20,223 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:29:20,560 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:29:21,561 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:22,661 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:29:22,661 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:29:23,561 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:25,562 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:27,498 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:29:27,500 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:29:27,501 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:29:27,501 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:29:27,563 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:27,563 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:29:29,564 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:31,565 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:33,566 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:33,946 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:29:34,702 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:29:34,702 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:29:34,703 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:29:34,703 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:29:35,567 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:35,567 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:29:37,567 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:37,865 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:29:37,866 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:29:39,568 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:41,570 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:41,831 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: partial_history
+2023-12-21 18:29:41,831 DEBUG   SenderThread:28601 [sender.py:send():303] send: history
+2023-12-21 18:29:41,832 DEBUG   SenderThread:28601 [sender.py:send():303] send: summary
+2023-12-21 18:29:41,832 INFO    SenderThread:28601 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 18:29:41,838 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: pause
+2023-12-21 18:29:41,838 INFO    HandlerThread:28601 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-12-21 18:29:41,912 DEBUG   SenderThread:28601 [sender.py:send():303] send: stats
+2023-12-21 18:29:42,571 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/wandb-summary.json
+2023-12-21 18:29:43,571 INFO    Thread-13 :28601 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_182332-34jkep2y/files/output.log
+2023-12-21 18:29:53,191 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:29:53,191 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:30:08,364 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:30:08,365 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:30:23,545 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:30:23,546 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:30:38,675 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:30:38,675 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:30:53,845 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:30:53,846 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:31:09,020 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:31:09,020 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:31:24,144 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:31:24,145 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:31:39,402 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:31:39,402 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:31:54,608 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:31:54,609 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:32:09,790 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:32:09,790 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:32:24,991 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:32:24,992 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:32:40,267 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:32:40,268 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:32:55,464 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:32:55,464 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 18:33:10,664 DEBUG   HandlerThread:28601 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 18:33:10,664 DEBUG   SenderThread:28601 [sender.py:send_request():317] send_request: stop_status

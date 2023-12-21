@@ -15,7 +15,7 @@ def train_script(model, train_loader, val_loader, epochs, device, note):
         'train': train_loader,
         'val': val_loader
     }
-    optimizer = optim.Adam(model.parameters(), lr=0.001)
+    optimizer = optim.SGD(model.parameters(), lr=0.001)
     model = model.to(device)
     for epoch in range(epochs):
         train_loss, val_loss = 0.0, 0.0
