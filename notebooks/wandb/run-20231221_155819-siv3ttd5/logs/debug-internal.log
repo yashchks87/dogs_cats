@@ -1,0 +1,46 @@
+2023-12-21 15:58:19,197 INFO    StreamThr :3386 [internal.py:wandb_internal():88] W&B internal server running at pid: 3386, started at: 2023-12-21 15:58:19.194641
+2023-12-21 15:58:19,202 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: status
+2023-12-21 15:58:19,202 DEBUG   SenderThread:3386 [sender.py:send_request():317] send_request: status
+2023-12-21 15:58:19,209 INFO    WriterThread:3386 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/run-siv3ttd5.wandb
+2023-12-21 15:58:19,209 DEBUG   SenderThread:3386 [sender.py:send():303] send: header
+2023-12-21 15:58:19,241 DEBUG   SenderThread:3386 [sender.py:send():303] send: run
+2023-12-21 15:58:19,540 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: check_version
+2023-12-21 15:58:19,550 INFO    SenderThread:3386 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/files
+2023-12-21 15:58:19,550 INFO    SenderThread:3386 [sender.py:_start_run_threads():928] run started: siv3ttd5 with start time 1703174299.18706
+2023-12-21 15:58:19,550 DEBUG   SenderThread:3386 [sender.py:send():303] send: summary
+2023-12-21 15:58:19,550 INFO    SenderThread:3386 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-21 15:58:19,550 DEBUG   SenderThread:3386 [sender.py:send_request():317] send_request: check_version
+2023-12-21 15:58:19,645 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: run_start
+2023-12-21 15:58:19,655 DEBUG   HandlerThread:3386 [meta.py:__init__():34] meta init
+2023-12-21 15:58:19,655 DEBUG   HandlerThread:3386 [meta.py:__init__():49] meta init done
+2023-12-21 15:58:19,655 DEBUG   HandlerThread:3386 [meta.py:probe():215] probe
+2023-12-21 15:58:19,668 DEBUG   HandlerThread:3386 [meta.py:_setup_git():205] setup git
+2023-12-21 15:58:19,683 DEBUG   HandlerThread:3386 [meta.py:_setup_git():212] setup git done
+2023-12-21 15:58:19,683 DEBUG   HandlerThread:3386 [meta.py:_save_pip():53] save pip
+2023-12-21 15:58:19,684 DEBUG   HandlerThread:3386 [meta.py:_save_pip():67] save pip done
+2023-12-21 15:58:19,684 DEBUG   HandlerThread:3386 [meta.py:probe():253] probe done
+2023-12-21 15:58:20,240 DEBUG   SenderThread:3386 [sender.py:send():303] send: files
+2023-12-21 15:58:20,240 INFO    SenderThread:3386 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-12-21 15:58:20,257 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 15:58:20,258 DEBUG   SenderThread:3386 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 15:58:20,460 DEBUG   SenderThread:3386 [sender.py:send():303] send: telemetry
+2023-12-21 15:58:20,552 INFO    Thread-13 :3386 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/files/requirements.txt
+2023-12-21 15:58:20,552 INFO    Thread-13 :3386 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/files/wandb-metadata.json
+2023-12-21 15:58:20,552 INFO    Thread-13 :3386 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/files/wandb-summary.json
+2023-12-21 15:58:20,697 INFO    Thread-17 :3386 [upload_job.py:push():143] Uploaded file /tmp/tmpvcbld7kgwandb/2zpd13vl-wandb-metadata.json
+2023-12-21 15:58:24,552 INFO    Thread-13 :3386 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/files/output.log
+2023-12-21 15:58:26,553 INFO    Thread-13 :3386 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/files/output.log
+2023-12-21 15:58:29,751 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: pause
+2023-12-21 15:58:29,752 INFO    HandlerThread:3386 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-12-21 15:58:29,763 DEBUG   SenderThread:3386 [sender.py:send():303] send: stats
+2023-12-21 15:58:32,555 INFO    Thread-13 :3386 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/files/output.log
+2023-12-21 15:58:35,463 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 15:58:35,463 DEBUG   SenderThread:3386 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 15:58:50,562 INFO    Thread-13 :3386 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dogs_cats/notebooks/wandb/run-20231221_155819-siv3ttd5/files/config.yaml
+2023-12-21 15:58:50,645 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-21 15:58:50,645 DEBUG   SenderThread:3386 [sender.py:send_request():317] send_request: stop_status
+2023-12-21 15:58:53,269 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: resume
+2023-12-21 15:58:53,269 INFO    HandlerThread:3386 [handler.py:handle_request_resume():687] starting system metrics thread
+2023-12-21 15:58:53,301 DEBUG   HandlerThread:3386 [handler.py:handle_request():138] handle_request: pause
+2023-12-21 15:58:53,301 INFO    HandlerThread:3386 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-12-21 15:58:53,395 DEBUG   SenderThread:3386 [sender.py:send():303] send: stats

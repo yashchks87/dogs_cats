@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-167-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-12-21T08:13:49.851984",
+    "startedAt": "2023-12-21T08:13:49.350403",
+    "docker": null,
+    "gpu": "Quadro P4000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/yashchks87/dogs_cats.git",
+        "commit": "cc4fe78a8888a6212a467975419a6f77baee2456"
+    },
+    "email": "yashchks87@gmail.com",
+    "root": "/home/paperspace/Documents/dogs_cats",
+    "host": "ps2sxr1b9",
+    "username": "paperspace",
+    "executable": "/usr/local/bin/python"
+}
